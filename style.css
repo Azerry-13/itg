@@ -60,7 +60,7 @@ h1, h2 {
     background: linear-gradient(to right, transparent 50%, #0025E6 50%);
     background-size: 200% 100%;
     background-position: 0;
-    transition: 0.1s;
+    transition: all 0.1s ease-in-out;
 }
 
 .arrow-button {
@@ -74,7 +74,7 @@ h1, h2 {
     background: linear-gradient(to right, transparent 50%, #0A0A04 50%);
     background-size: 200% 100%;
     background-position: 0;
-    transition: background-position 0.2s;
+    transition: all 0.2s ease-in-out;
     transition-delay: 0.1s;
 }
 
