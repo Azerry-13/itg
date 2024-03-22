@@ -351,7 +351,7 @@ footer p.button-text {
     justify-content: center;
 }
 
-.vendors-content-text p {
+.vendors-content-text .body-text {
     margin: 10px 0 25px;
 }
 
@@ -431,6 +431,10 @@ footer p.button-text {
     margin-bottom: 50px;
 }
 
+.news-example svg {
+    transform: scale(-1, 1);
+}
+
 .products-beginning {
     background: url(images/products-image-1.png) center no-repeat;
     background-size: cover;
@@ -445,7 +449,7 @@ footer p.button-text {
     width: 100%;
 }
 
-.products-beginning p {
+.products-beginning-text > p {
     margin: 10px 0 25px;
 }
 
