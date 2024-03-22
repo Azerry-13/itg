@@ -81,6 +81,7 @@ h1, h2 {
 .arrow-button:hover .arrow {
     border: 1px solid #0025E6;
     background-position: -100%;
+    transition-delay: 0.1s;
 }
 
 .arrow-button:hover {
