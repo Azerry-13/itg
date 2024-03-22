@@ -595,6 +595,12 @@ input, textarea {
     color: #0A0A04;
 }
 
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
 textarea {
     resize: vertical;
 }
