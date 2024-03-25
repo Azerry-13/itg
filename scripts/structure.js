@@ -25,11 +25,11 @@ if (body.id == "page-w_back") {
                     <header>
                         <a href="index.html"><img src="images/logo_black.png" alt="" class="logo-black"></a>
                         <nav class="links-black">
-                            <li><a class="button-text" href="#">About us</a></li>
+                            <li><a class="button-text" href="about.html">About us</a></li>
                             <li><a class="button-text" href="products.html">Products</a></li>
                             <li><a class="button-text" href="vendors.html">Vendors and partners</a></li>
-                            <li><a class="button-text" href="#">News</a></li>
-                            <li><a class="button-text" href="#">Contacts</a></li>
+                            <li><a class="button-text" href="news.html">News</a></li>
+                            <li><a class="button-text" href="contacts.html">Contacts</a></li>
                         </nav>
                     </header>
             `
