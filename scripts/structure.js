@@ -145,5 +145,3 @@ switch (splitUrl) {
         document.getElementById('contacts').classList.add('underlined');
         break;
 }
-
-alert("ПОСМОТРИ МАКЕТ, КУКИ ЗАБЫЛ");
