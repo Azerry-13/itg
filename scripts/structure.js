@@ -126,7 +126,7 @@ if (burger_menu) {
 }
 
 let url = window.location.pathname;
-let splitUrl = url.split('/')[6];
+let splitUrl = url.split('/')[2];
 
 switch (splitUrl) {
     case 'about.html': 
@@ -145,3 +145,5 @@ switch (splitUrl) {
         document.getElementById('contacts').classList.add('underlined');
         break;
 }
+
+alert("ПОСМОТРИ МАКЕТ, КУКИ ЗАБЫЛ");
