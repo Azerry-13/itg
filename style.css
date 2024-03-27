@@ -1308,6 +1308,9 @@ input:first-of-type {
     .about-values-right {
         row-gap: 20px;
     }
+    .cookies-content {
+        padding: 15px 0 50px;
+    }
 }
 
 @media screen and (max-width: 500px) {
