@@ -1280,6 +1280,7 @@ input:first-of-type {
     }
     .about-team .container {
         flex-direction: column;
+        gap: 0;
     }
     .about-team img {
         border-top-left-radius: 10px;
