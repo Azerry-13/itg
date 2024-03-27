@@ -356,7 +356,8 @@ footer p.button-text {
 .news-page main, 
 .products-page main,
 .about-page main,
-.apply-page main {
+.apply-page main,
+.news-example main {
     padding-top: 94px;
 }
 
@@ -1148,7 +1149,7 @@ input:first-of-type {
     .vendors-content {
         padding: 35px 0 45px;
     }
-    .news, .news-content,.contacts-content, .apply-content {
+    .news, .news-content, .contacts-content, .apply-content {
         padding: 15px 0 45px;
     }
     .vendors-content-text .body-text {
@@ -1381,6 +1382,9 @@ input:first-of-type {
     .cookies_buttons button {
         width: 140px;
         height: 48px;
+    }
+    .news-example h1 {
+        display: none;
     }
 }
 
