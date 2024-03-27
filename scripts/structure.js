@@ -154,7 +154,7 @@ cookies.innerHTML = `<p class="body-text">We and our partners use technologies, 
 
 <div class="cookies_buttons">
     <button onclick="accepted()"><span class="body-text">Accept Cookies</span></button>
-    <button><span class="body-text">Cookie Settings</span></button>
+    <button onclick="link()"><span class="body-text">Cookie Settings</span></button>
 </div>`
 
 
