@@ -173,3 +173,7 @@ window.onload = function() {
         document.getElementById('cookies').style.display = 'flex';
     }
 };
+
+function link() {
+    window.location ='https://azerry-13.github.io/itg/cookies.html'
+}
