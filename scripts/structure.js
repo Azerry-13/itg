@@ -145,3 +145,17 @@ switch (splitUrl) {
         document.getElementById('contacts').classList.add('underlined');
         break;
 }
+
+function accepted() {
+    document.getElementById('cookies').style.display = 'none';
+    localStorage.setItem('cookiesAccepted', 'true');
+}
+
+window.onload = function() {
+    var cookiesAccepted = localStorage.getItem('cookiesAccepted');
+    if (cookiesAccepted === 'true') {
+        document.getElementById('cookies').style.display = 'none';
+    } else {
+        document.getElementById('cookies').style.display = 'block';
+    }
+};
