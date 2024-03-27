@@ -893,6 +893,19 @@ input:first-of-type {
         flex-direction: column;
         gap: 40px;
     }
+    #cookies {
+        padding: 16px 20px;
+        flex-direction: column;
+    }
+    .cookies_buttons {
+        margin-top: 20px;
+    }
+    #cookies {
+        padding: 16px 20px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -1036,6 +1049,12 @@ input:first-of-type {
     .about-values-content {
         flex-direction: column;
         gap: 40px;
+    }
+    #cookies {
+        padding: 16px 20px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
     }
 }
 
@@ -1358,6 +1377,10 @@ input:first-of-type {
     }
     .cookies-content {
         padding: 15px 0 50px;
+    }
+    .cookies_buttons button {
+        width: 140px;
+        height: 48px;
     }
 }
 

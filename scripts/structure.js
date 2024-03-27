@@ -146,6 +146,20 @@ switch (splitUrl) {
         break;
 }
 
+let cookies = document.createElement("div");
+cookies.id = "cookies";
+cookies.style.display = "none";
+
+cookies.innerHTML = `<p class="body-text">We and our partners use technologies, such as cookies, to personalise advertising and content based on your browsing habits, and to measure and analyse use so that we can improve our website and services. Learn more about this in our Cookie Policy and about the related use of your personal data in our Privacy Statement. Click “Accept Cookies” to agree to the use of these technologies and your personal data, or "Cookie Settings" to tailor your preferences. Change or withdraw your consent at any time via our Preferences Centre.</p>
+
+<div class="cookies_buttons">
+    <button onclick="accepted()"><span class="body-text">Accept Cookies</span></button>
+    <button><span class="body-text">Cookie Settings</span></button>
+</div>`
+
+
+body.append(cookies);
+
 function accepted() {
     document.getElementById('cookies').style.display = 'none';
     localStorage.setItem('cookiesAccepted', 'true');
@@ -156,6 +170,6 @@ window.onload = function() {
     if (cookiesAccepted === 'true') {
         document.getElementById('cookies').style.display = 'none';
     } else {
-        document.getElementById('cookies').style.display = 'block';
+        document.getElementById('cookies').style.display = 'flex';
     }
 };
