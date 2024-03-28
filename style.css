@@ -279,7 +279,7 @@ footer p.button-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 50px;
+    row-gap: 76px;
 }
 
 .products-right img {
@@ -358,16 +358,12 @@ footer p.button-text {
 .about-page main,
 .apply-page main,
 .news-example main {
-    padding-top: 105px;
+    padding-top: 90px;
 }
 
 .vendors-beginning {
     background: url(images/banner/vendors-image-1.png) center no-repeat;
     background-size: cover;
-    height: 678px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .vendors-content img {
@@ -379,6 +375,7 @@ footer p.button-text {
 .vendors-beginning-text {
     max-width: 506px;
     width: 100%;
+    padding: 180px 0 210px;
 }
 
 .vendors-content .container {
@@ -436,6 +433,7 @@ footer p.button-text {
     font-size: 30px;
     line-height: 37px;
     margin: 50px 0 15px;
+    font-weight: 500;
 }
 
 .news-content h1 {
@@ -485,15 +483,12 @@ footer p.button-text {
 .products-beginning {
     background: url(images/banner/products-image-1.png) center no-repeat;
     background-size: cover;
-    height: 678px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .products-beginning-text {
     max-width: 405px;
     width: 100%;
+    padding: 180px 0 200px;
 }
 
 .products-beginning-text > p {
@@ -542,15 +537,15 @@ footer p.button-text {
 
 .about-beginning img {
     position: absolute;
-    top: 0;
-    left: 40%;
+    top: 2%;
+    left: 42%;
     z-index: -1;
 }
 
 .about-beginning h1 {
     max-width: 565px;
     width: 100%;
-    padding-top: 125px;
+    padding-top: 150px;
 }
 
 .about-team {
@@ -588,7 +583,7 @@ footer p.button-text {
 }
 
 .about-values-left {
-    max-width: 505px;
+    max-width: 545px;
     width: 100%;
 }
 
@@ -974,7 +969,7 @@ input:first-of-type {
     }
     .main-page-beginning h1 {
         color: #FFFFFF;
-        padding-top: 240px;
+        padding-top: 250px;
         padding-bottom: 30px;
     }
     .products-left {
@@ -1056,6 +1051,11 @@ input:first-of-type {
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
+    }
+    .products-beginning-text {
+        max-width: 405px;
+        width: 100%;
+        padding: 120px 0 150px;
     }
 }
 
@@ -1409,10 +1409,10 @@ input:first-of-type {
         height: auto;
     }
     .products-right-block {
-        width: 100%;
+        max-width: 100%;
     }
     .products-left .body-text {
-        margin: 20px 0;
+        margin: 20px 0 0;
     }
     .products-right p {
         margin-top: 10px;
@@ -1420,9 +1420,6 @@ input:first-of-type {
     .products-right {
         row-gap: 36px;
         margin-top: 20px;
-    }
-    .products-right-block {
-        max-width: 100%;
     }
     .contacts-content img {
         width: 100%;
