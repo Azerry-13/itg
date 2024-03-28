@@ -267,7 +267,7 @@ footer p.button-text {
 }
 
 .products-left {
-    max-width: 393px;
+    max-width: 400px;
     width: 100%;
 }
 
@@ -279,7 +279,7 @@ footer p.button-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 76px;
+    row-gap: 50px;
 }
 
 .products-right img {
@@ -290,6 +290,7 @@ footer p.button-text {
 
 .products-right p {
     text-align: left;
+    margin-top: 10px;
 }
 
 .news {
@@ -298,6 +299,10 @@ footer p.button-text {
 
 .news, .vendors-content, .contacts-content, .cookies-content, .news-content, .products-content, .about-values {
     padding: 80px 0 120px;
+}
+
+.news-example .news-content {
+    padding: 80px 0 70px;
 }
 
 .news__content {
@@ -530,14 +535,14 @@ footer p.button-text {
 
 .about-beginning {
     position: relative;
-    height: 725px;
+    height: 700px;
     display: flex;
     flex-direction: row;
 }
 
 .about-beginning img {
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 42%;
     z-index: -1;
 }
@@ -545,7 +550,7 @@ footer p.button-text {
 .about-beginning h1 {
     max-width: 565px;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 165px;
 }
 
 .about-team {
@@ -606,7 +611,7 @@ footer p.button-text {
 .apply-content {
     padding: 40px 0 80px;
     display: flex;
-    gap: 110px;
+    justify-content: space-between;
 }
 
 .apply-content h1 {
@@ -805,6 +810,12 @@ input:first-of-type {
     background-color: #0025E6;
 }
 
+.news-example .title {
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 1350px) {
     .main-page-beginning {
         background: url(images/banner/main-banner-desktop.png) center left 66% no-repeat;
@@ -905,6 +916,9 @@ input:first-of-type {
 }
 
 @media screen and (max-width: 1023px) {
+    br {
+        display: none;
+    }
     .container {
         padding: 0 30px;
     }
