@@ -358,7 +358,7 @@ footer p.button-text {
 .about-page main,
 .apply-page main,
 .news-example main {
-    padding-top: 94px;
+    padding-top: 105px;
 }
 
 .vendors-beginning {
@@ -1166,7 +1166,7 @@ input:first-of-type {
     }
     .about-beginning h1 {
         max-width: 100%;
-        padding-top: 15px;
+        padding-top: 0;
     }
     .about-beginning .container {
         padding-bottom: 45px;
@@ -1177,6 +1177,16 @@ input:first-of-type {
     .about-beginning {
         height: auto;
     }
+    .vendors-page main,
+    .contacts-page main,
+    .cookies-page main,
+    .news-page main, 
+    .products-page main,
+    .about-page main,
+    .apply-page main,
+    .news-example main {
+    padding-top: 90px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -1198,7 +1208,7 @@ input:first-of-type {
         width: 161px;
     }
     header {
-        top: 40px;
+        top: 35px;
     }
     .news {
         padding: 35px 0 40px;
@@ -1328,7 +1338,6 @@ input:first-of-type {
         max-width: 100%;
     }
     .about-beginning h1 {
-        padding-top: 15px;
         max-width: 100%;
     }
     .about-beginning img {
@@ -1377,7 +1386,7 @@ input:first-of-type {
         row-gap: 20px;
     }
     .cookies-content {
-        padding: 15px 0 50px;
+        padding: 11px 0 50px;
     }
     .cookies_buttons button {
         width: 140px;
