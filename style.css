@@ -796,13 +796,13 @@ input:first-of-type {
     cursor: pointer;
 }
 
-.cookies_buttons button:first-of-type {
-    background-color: #0025E6;
-}
-
-.cookies_buttons button:last-of-type {
+.cookies_buttons button {
     background-color: #0A0A04;
     border: 1px solid #0025E6;
+}
+
+.cookies_buttons button:hover {
+    background-color: #0025E6;
 }
 
 @media screen and (max-width: 1350px) {
