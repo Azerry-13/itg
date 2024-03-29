@@ -1200,6 +1200,12 @@ input:first-of-type {
     .news-example main {
     padding-top: 90px;
 }
+.news__content {
+    margin-top: 20px;
+}
+.news-example .news-content {
+    padding: 15px 0 70px;
+}
 }
 
 @media screen and (max-width: 767px) {
